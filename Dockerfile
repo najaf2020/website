@@ -1,2 +1,3 @@
-FROM /root/website
-ADD ./index.html /var/www/html/index1.html
+FROM alpine
+
+COPY index.html /var/www/html/index1.html
