@@ -1,9 +1,2 @@
-<!DOCTYPE html>
-<html>
-    <head>
-         najaf riaz is the best
-    </head>
-    <body>
-         hello world 
-    </body>
-</html>
+FROM /root/website
+ADD ./index.html /var/www/html/index1.html
