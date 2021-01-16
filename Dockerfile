@@ -1,3 +1,3 @@
 FROM alpine
 
-COPY ./index.html /var/www/html/index1.html
+COPY index1.html /var/www/html/index1.html
